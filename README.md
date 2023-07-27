@@ -38,6 +38,4 @@ Output: [0,1]
 
 ## Problem 2 solution explained
 
----
-
 The function **sumEqualTarget** iterates through the given **nums** array, calculating the complement by subtracting the current number from the target. It then checks if the complement is present in the **numSet** using **indexOf**, which results in a linear search operation. As a worst-case scenario, **indexOf** can traverse the entire **numSet**, leading to a nested loop behavior and increasing the overall time complexity to O(n^2). Additionally, the space complexity remains O(n) as the HashSet stores at most all elements of **nums**. Although the HashSet aids in the search for complements, the use of **indexOf** hinders the overall efficiency of the solution, and the space complexity is O(1) because it uses constant space.
