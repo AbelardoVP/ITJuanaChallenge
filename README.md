@@ -1,5 +1,10 @@
 # ITJuanaChallenge
 
+## How to run this project?
+
+1. run **npm i** command to install dependencies.
+2. run **npm run tests** command to run all the tests
+
 ## Problem 1 (findMissingNumbers))
 
 Given a list nums of n integers where nums[i] is in the range [1, list length], write a function
